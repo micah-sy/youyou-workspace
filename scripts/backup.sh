@@ -21,7 +21,14 @@ if git status --porcelain | grep -q .; then
     MESSAGE="${1:-Auto backup - $TIMESTAMP}"
     git commit -m "$MESSAGE"
     
-    echo "[$TIMESTAMP] 备份完成：$MESSAGE" >> "$LOG_FILE"
+    echo "[$TIMESTAMP] 本地备份完成：$MESSAGE" >> "$LOG_FILE"
+    
+    # 推送到 GitHub
+    if git push origin main >> "$LOG_FILE" 2>&1; then
+        echo "[$TIMESTAMP] 远程推送成功" >> "$LOG_FILE"
+    else
+        echo "[$TIMESTAMP] 远程推送失败（可能无网络或仓库不可用）" >> "$LOG_FILE"
+    fi
 else
     echo "[$TIMESTAMP] 无更改，跳过备份" >> "$LOG_FILE"
 fi
