@@ -1,0 +1,15 @@
+# Layer 2 活跃池 - 推断库
+
+# 格式：每行一个 JSON 对象
+# {
+#   "id": "b_YYYYMMDD_001",
+#   "content": "推断内容",
+#   "confidence": 0.0-1.0,
+#   "importance": 0.0-1.0,
+#   "score": 0.0-1.0,
+#   "basis": "推断依据",
+#   "entities": ["实体 1"],
+#   "created": "ISO8601 时间戳",
+#   "accessed": ["访问时间戳列表"],
+#   "emotional_value": false
+# }

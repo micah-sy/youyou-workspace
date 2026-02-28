@@ -1,0 +1,14 @@
+# Layer 2 活跃池 - 摘要库
+
+# 格式：每行一个 JSON 对象
+# {
+#   "id": "s_YYYYMMDD_001",
+#   "content": "摘要内容",
+#   "importance": 0.0-1.0,
+#   "score": 0.0-1.0,
+#   "source_facts": ["f_001", "f_002"],
+#   "entities": ["实体 1"],
+#   "created": "ISO8601 时间戳",
+#   "accessed": ["访问时间戳列表"],
+#   "emotional_value": false
+# }

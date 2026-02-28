@@ -1,0 +1,89 @@
+{
+  "version": "youyou-v1.1",
+  "description": "悠悠定制版记忆系统 (整合 wangray Agent 操作手册)",
+  
+  "decay_rates": {
+    "fact_personal": 0.004,
+    "fact_general": 0.008,
+    "belief": 0.05,
+    "summary": 0.02,
+    "emotional": 0.002
+  },
+  
+  "temperature": {
+    "weights": {
+      "age": 0.5,
+      "reference": 0.3,
+      "priority": 0.2
+    },
+    "thresholds": {
+      "hot": 0.7,
+      "warm": 0.3,
+      "cold": 0.3
+    },
+    "emotional_boost": 1.2,
+    "access_boost": 1.1
+  },
+  
+  "thresholds": {
+    "archive": 0.05,
+    "summary_trigger": 3,
+    "stale_days": 30
+  },
+  
+  "token_budget": {
+    "layer1_total": 2000,
+    "layer1_identity": 0.15,
+    "layer1_owner": 0.25,
+    "layer1_agreements": 0.15,
+    "layer1_top_facts": 0.25,
+    "layer1_recent": 0.15,
+    "layer1_emotional": 0.05
+  },
+  
+  "importance_rules": {
+    "core_identity": 1.0,
+    "agreements": 0.95,
+    "health_safety": 1.0,
+    "gifts_from_user": 0.9,
+    "preference_relation": 0.8,
+    "projects_tasks": 0.7,
+    "general_fact": 0.5,
+    "temporary": 0.3
+  },
+  
+  "priority_levels": {
+    "critical": "🔴",
+    "important": "🟡",
+    "reference": "⚪"
+  },
+  
+  "status_types": {
+    "active": "✅",
+    "stale": "⚠️",
+    "conflict": "🔀",
+    "superseded": "❌"
+  },
+  
+  "consolidation": {
+    "schedule": "0 4 * * *",
+    "fallback_hours": 24,
+    "model": "default",
+    "mini_consolidate_on_emotional": true,
+    "quick_consolidate_on_session_end": true,
+    "crud_validation": true
+  },
+  
+  "lifecycle": {
+    "heartbeat_interval": "30m",
+    "daily_log_sync": "23:30",
+    "nightly_reflection": "23:45",
+    "weekly_gc": "0 0 * * 0"
+  },
+  
+  "llm": {
+    "enabled": true,
+    "model": "default",
+    "api_key_env": "OPENAI_API_KEY"
+  }
+}

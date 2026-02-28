@@ -1,0 +1,15 @@
+# Layer 2 活跃池 - 事实库
+
+# 格式：每行一个 JSON 对象
+# {
+#   "id": "f_YYYYMMDD_001",
+#   "content": "事实内容",
+#   "importance": 0.0-1.0,
+#   "score": 0.0-1.0,
+#   "entities": ["实体 1", "实体 2"],
+#   "created": "ISO8601 时间戳",
+#   "source": "session_id:line_number",
+#   "type": "fact_personal|fact_general",
+#   "accessed": ["访问时间戳列表"],
+#   "emotional_value": false
+# }
