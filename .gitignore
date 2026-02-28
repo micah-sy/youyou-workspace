@@ -1,0 +1,43 @@
+# Git 敏感文件忽略
+
+# 认证信息
+auth-profiles.json
+credentials/
+*.key
+*.pem
+*.secret
+*.p12
+*.pfx
+
+# API Keys 和令牌
+.env
+.env.local
+.env.*.local
+*.token
+
+# 日志文件（可选，根据需要调整）
+logs/*.log
+
+# 临时文件
+*.tmp
+*.swp
+*~
+*.bak
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.log
+
+# 编辑器文件
+.vscode/
+.idea/
+*.sublime-*
+
+# Node modules（如果有）
+node_modules/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.pyo
