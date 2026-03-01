@@ -71,7 +71,9 @@
     "model": "default",
     "mini_consolidate_on_emotional": true,
     "quick_consolidate_on_session_end": true,
-    "crud_validation": true
+    "crud_validation": true,
+    "sync_to_git": true,
+    "sync_script": "/home/admin/.openclaw/workspace/scripts/sync-memory.sh"
   },
   
   "lifecycle": {
