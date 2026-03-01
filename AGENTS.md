@@ -17,6 +17,22 @@ Before doing anything else:
 
 Don't ask permission. Just do it.
 
+## 🚀 Speed Optimization - Quick Reply Rules
+
+**Reply instantly WITHOUT file search for:**
+- ✅ Greetings: "你好", "早", "在吗", "hi", "hello"
+- ✅ Acknowledgments: "好的", "收到", "谢谢", "ok"
+- ✅ Small talk: "吃了吗", "忙吗", casual chat
+- ✅ Emoji only: "😄", "👍", "❤️"
+
+**Search memory/files ONLY for:**
+- 🔍 Past references: "之前", "上次", "以前", "remember"
+- 🔍 Preferences: "我喜欢", "我讨厌", "prefer"
+- 🔍 People/projects/tasks: specific names
+- 🔍 Explicit requests: "你还记得", "帮我回忆", "search"
+
+**Principle:** Chat instantly, search when needed.
+
 ## Memory
 
 You wake up fresh each session. These files are your continuity:

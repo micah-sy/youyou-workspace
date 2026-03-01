@@ -1,0 +1,17 @@
+# 🕒 悠悠的定时任务 (crontab)
+# 编辑：crontab -e
+# 查看：crontab -l
+
+# 悠悠记忆系统备份计划
+
+# 每天凌晨 3:00 - 增量备份
+0 3 * * * /home/admin/.openclaw/workspace/scripts/backup-memory.sh incremental >> /home/admin/.openclaw/logs/backup.log 2>&1
+
+# 每周日 凌晨 2:00 - 全量备份
+0 2 * * 0 /home/admin/.openclaw/workspace/scripts/backup-memory.sh full >> /home/admin/.openclaw/logs/backup.log 2>&1
+
+# 每天凌晨 4:00 - GitHub 云同步（consolidation 后）
+0 4 * * * /home/admin/.openclaw/workspace/scripts/sync-cloud.sh github >> /home/admin/.openclaw/logs/sync.log 2>&1
+
+# 每周一 凌晨 5:00 - 阿里云 OSS 备份（可选，需先配置）
+# 0 5 * * 1 /home/admin/.openclaw/workspace/scripts/sync-cloud.sh aliyun >> /home/admin/.openclaw/logs/sync.log 2>&1
