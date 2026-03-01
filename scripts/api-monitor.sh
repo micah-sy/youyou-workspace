@@ -60,6 +60,13 @@ check_api_failures() {
 
 EOF
         
+        # 发送 Telegram 告警
+        local script_dir
+        script_dir="$(dirname "$0")"
+        if [[ -x "$script_dir/send-telegram-alert.sh" ]]; then
+            "$script_dir/send-telegram-alert.sh" "API 调用失败 ($error_count 次/小时)" "warning" >> "$LOG_FILE" 2>&1 || true
+        fi
+        
         return 1
     fi
     

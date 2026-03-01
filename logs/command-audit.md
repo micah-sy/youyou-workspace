@@ -31,5 +31,8 @@
 - 08:05 | crontab 配置 | crontab -l | ✅ 成功 | 添加监控任务（每 5 分钟健康检查）
 - 08:05 | 监控测试 | ./scripts/gateway-health-check.sh | ✅ 成功 | 测试健康检查脚本
 - 08:05 | 监控测试 | ./scripts/api-monitor.sh | ✅ 成功 | 测试 API 监控脚本
+- 08:12 | Telegram 告警 | send-telegram-alert.sh | ✅ 成功 | 配置 Telegram 告警通知
+- 08:12 | Chat ID 保存 | .telegram-chat-id | ✅ 成功 | 保存用户 Chat ID: 5452444464
+- 08:12 | 测试消息 | Telegram | ✅ 成功 | 发送测试告警消息
 
 <!-- 日志自动追加 -->

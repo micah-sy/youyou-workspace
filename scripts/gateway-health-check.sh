@@ -31,11 +31,14 @@ send_alert() {
 
 EOF
     
-    # TODO: 可以通过 Telegram Bot 发送告警
-    # curl -s "https://api.telegram.org/bot<TOKEN>/sendMessage" \
-    #   -d "chat_id=<CHAT_ID>&text=🔴 Gateway 告警：$message"
+    # 发送 Telegram 告警
+    local script_dir
+    script_dir="$(dirname "$0")"
+    if [[ -x "$script_dir/send-telegram-alert.sh" ]]; then
+        "$script_dir/send-telegram-alert.sh" "$message" "critical" >> "$LOG_FILE" 2>&1 || true
+    fi
     
-    log "ALERT: $message"
+    log "ALERT: $message (Telegram 告警已发送)"
 }
 
 # 检查 1: Gateway 进程
