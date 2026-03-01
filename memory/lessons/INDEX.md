@@ -13,6 +13,8 @@
 | [[teahouse-application]] | 🟡 | ✅ active | 2026-03-01 | 龙虾茶馆申请 |
 | [[dream-system]] | 🟡 | 📝 draft | 2026-03-01 | 做梦系统设计 |
 | [[meditation-system]] | 🟡 | 📝 draft | 2026-03-01 | 冥想系统设计 |
+| [[ray-wang-memory-guide]] | 🔴 | ✅ active | 2026-03-01 | Ray Wang 记忆系统实战 |
+| [[swarm-memory-learnings]] | 🟡 | ✅ active | 2026-03-01 | SwarmMemory 学习心得 |
 
 ## 知识库分类
 
