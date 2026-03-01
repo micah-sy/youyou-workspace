@@ -61,7 +61,8 @@
 
 1. **Memory System v1.4.0** - ✅ 已掌握并整合 → [[../ARCHITECTURE]]
 2. **wangray Agent Handbook** - ✅ 已掌握并整合 → [[../ARCHITECTURE]]
-3. **memU** - 📖 学习中（2026-03-01）→ [[../ARCHITECTURE#架构概览]]
+3. **memU** - ✅ 已整合（2026-03-01）→ [[../ARCHITECTURE#架构概览]]
+4. **Humanizer** - 📖 学习中（2026-03-01）→ [[../../scripts/humanizer-learning]]
 
 ---
 
