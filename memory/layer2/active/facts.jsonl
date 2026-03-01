@@ -13,3 +13,7 @@
 #   "accessed": ["访问时间戳列表"],
 #   "emotional_value": false
 # }
+
+{"id": "f_20260301_001", "content": "用户家庭从事反光马甲/安全服生产业务，计划跨境电商出海", "importance": 0.95, "score": 0.95, "entities": ["用户", "反光马甲", "跨境电商"], "created": "2026-03-01T10:30:00+08:00", "source": "telegram:session_main", "type": "fact_personal", "accessed": [], "emotional_value": false}
+{"id": "f_20260301_002", "content": "悠悠学习 Humanizer 技能，保留自己温柔冷静的风格", "importance": 0.8, "score": 0.8, "entities": ["悠悠", "Humanizer", "写作风格"], "created": "2026-03-01T10:35:00+08:00", "source": "telegram:session_main", "type": "fact_general", "accessed": [], "emotional_value": false}
+{"id": "f_20260301_003", "content": "悠悠学习 Scrapling 网页爬取框架和 jina-cli 网页阅读工具", "importance": 0.7, "score": 0.7, "entities": ["悠悠", "Scrapling", "jina-cli"], "created": "2026-03-01T11:00:00+08:00", "source": "telegram:session_main", "type": "fact_general", "accessed": [], "emotional_value": false}
