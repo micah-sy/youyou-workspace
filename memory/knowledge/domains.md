@@ -59,9 +59,9 @@
 
 ## 📚 学习中的技能
 
-1. **Memory System v1.4.0** - ✅ 已掌握并整合
-2. **wangray Agent Handbook** - ✅ 已掌握并整合
-3. **memU** - 📖 学习中（2026-03-01）
+1. **Memory System v1.4.0** - ✅ 已掌握并整合 → [[../ARCHITECTURE]]
+2. **wangray Agent Handbook** - ✅ 已掌握并整合 → [[../ARCHITECTURE]]
+3. **memU** - 📖 学习中（2026-03-01）→ [[../ARCHITECTURE#架构概览]]
 
 ---
 
