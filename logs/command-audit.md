@@ -34,5 +34,6 @@
 - 08:12 | Telegram 告警 | send-telegram-alert.sh | ✅ 成功 | 配置 Telegram 告警通知
 - 08:12 | Chat ID 保存 | .telegram-chat-id | ✅ 成功 | 保存用户 Chat ID: 5452444464
 - 08:12 | 测试消息 | Telegram | ✅ 成功 | 发送测试告警消息
+- 09:29 | 天气推送 | morning-weather.sh | ✅ 成功 | 创建早晨天气推送任务（每天 6 点）
 
 <!-- 日志自动追加 -->
