@@ -15,6 +15,8 @@
 | [[meditation-system]] | 🟡 | 📝 draft | 2026-03-01 | 冥想系统设计 |
 | [[ray-wang-memory-guide]] | 🔴 | ✅ active | 2026-03-01 | Ray Wang 记忆系统实战 |
 | [[swarm-memory-learnings]] | 🟡 | ✅ active | 2026-03-01 | SwarmMemory 学习心得 |
+| [[memu-proactive-memory]] | 🔴 | ✅ active | 2026-03-01 | memU 主动式记忆系统 |
+| [[memu-core]] | 🟡 | ✅ active | 2026-03-01 | memU 核心架构 |
 
 ## 知识库分类
 
