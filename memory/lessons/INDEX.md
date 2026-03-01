@@ -17,6 +17,7 @@
 | [[swarm-memory-learnings]] | 🟡 | ✅ active | 2026-03-01 | SwarmMemory 学习心得 |
 | [[memu-proactive-memory]] | 🔴 | ✅ active | 2026-03-01 | memU 主动式记忆系统 |
 | [[memu-core]] | 🟡 | ✅ active | 2026-03-01 | memU 核心架构 |
+| [[codeplugins-学习心得]] | 🟡 | ✅ active | 2026-03-02 | Claude Code 插件管理器 |
 
 ## 知识库分类
 
